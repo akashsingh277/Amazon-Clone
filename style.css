@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+header{
+    background-color: #0f1111;
+}
+.navbar{
+    height: 60px;
+background-color: #0f1111;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    
+    background-image: url("images.png");
+    background-size: cover;
+    height: 50px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.navaddress{
+    color: white;
+    margin-left: 15px;
+    
+}
+.addf{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+
+}
+.adds{
+    font-size: 1rem;
+    margin-left: 15px;
+
+
+}
+.addicon{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+
+}
+.fa-solid fa-location-dot{
+    margin-left: 30px;
+}
+.navsearch{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+.searchselect{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    
+}
+.searchicon{
+    background-color: rgb(202, 166, 6);
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.searchinput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.sign{
+    font-size:0.85rem ;
+}
+.navsearch:hover{
+    border: 2px solid orange;
+}
+.navcart i{
+    font-size: 1.3rem;
+}
+.panel{
+    display: flex;
+align-items: center;
+justify-content: space-evenly;
+    height: 40px;
+    background-color:#222f32 ;
+    color: white;
+}
+.paneloptions p{
+    display: inline;
+    margin-left: 15px;
+    
+    
+
+}
+.paneloptions{
+    font-size:0.85rem ;
+    width: 70%;
+}
+.paneldeals{
+    font-weight:700 ;
+}
+.herosection{
+    background-image: url("hero.jpg");
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.heromessage{
+   background-color: white;
+   color: black;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center; 
+   font-size: 0.85rem;
+   width: 100%;
+   margin-bottom: 25px;
+
+}
+.heromessage a{
+    color: #007185;
+}
+.shopsections{
+   
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(122, 196, 230);
+
+}
+.box{
+    border: 2px solid black;
+    height: 300px;
+    width: 20% ;
+    background-color: white;
+}
+.box1{
+    background-image: url("box1.png");
+    background-size: cover;
+}
+.box2{
+    background-image: url("groc.jpg");
+    background-size: cover;
+    
+}
+.box3{
+    background-image: url("watc.png");
+    background-size: cover;
+}
+.box4{
+    background-image: url("mobile.jpg");
+    background-size: cover;
+}
+.shopsections2{
+   margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(122, 196, 230);
+}
+.box5{
+    background-image: url("toys.jpg");
+    background-size: cover;
+    text-align: center;
+}
+.box6{
+    background-image: url("sports.png");
+    background-size: cover;
+    color:black;
+}
+.box7{
+    background-image: url("fitness.png");
+    background-size: cover;
+}
+.box8{
+    background-image: url("box8.jpg");
+    background-size: cover;
+}
+footer{
+    margin-top: 15px;
+}
+.footpanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.footpanel2{
+    margin-top: 2px;
+    display: flex;
+    background-color: #222f3d;
+    color: white;
+    height: 200px;
+    justify-content: space-evenly;
+
+}
+.footpanel2 a{
+    color: white;
+    font-size: 0.7rem;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+}
+.footpanel3{
+    margin-top: 2px;
+    text-align: justify;
+    height: 80px;
+    text-align: center;
+   background-color: #0f1111; 
+   color: white;
+}
